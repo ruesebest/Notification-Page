@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Very-light-grayish-blue: hsl(210, 60%, 98%);
+    --Light-grayish-blue-1: hsl(211, 68%, 94%);
+    --Light-grayish-blue-2: hsl(205, 33%, 90%);
+    --Grayish-blue: hsl(219, 14%, 63%);
+    --Dark-grayish-blue: hsl(219, 12%, 42%);
+    --Very-dark-blue: hsl(224, 93%, 21%);
+    }
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Plus Jakarta Sans";
+    font-optical-sizing: auto;
+    /* font-weight: 500; */
+    font-style: normal;
+    color: var(--Dark-grayish-blue);
+}
+
+.time {
+    color: var(--Grayish-blue);
+}
+
+.chess {
+    color: var(--Very-dark-blue);
+}
+
+.name {
+    color: black;
+}
+
+body {
+    background-color: var(--Very-light-grayish-blue);
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.container {
+    margin-top: 50px;
+    width: 640px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.notifications {
+    display: flex;
+    gap: 5px;
+    font-size: 19px;
+}
+
+#notifNo {
+    background-color: var(--Very-dark-blue);
+    color: var(--White);
+    border-radius: 4px;
+    height: 20px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+#markAll {
+    color: var(--Dark-grayish-blue);
+    cursor: pointer;
+}
+
+#theBody {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.notifBar {
+    display: flex;
+    border-radius: 5px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.notifPic {
+    margin-left: 19.5%;
+}
+
+.unread {
+    background-color: var(--Very-light-grayish-blue);
+}
+
+img {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.theMessage {
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 20px;
+    margin-top: 10px;
+    /* background-color: antiquewhite; */
+}

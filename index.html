@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Notifications page</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="notifications">
+        <b>Notifications</b>
+        <div id="notifNo"></div>
+      </div>
+      <div id="markAll">
+        <span>Mark all as read</span>
+      </div>
+    </div>
+    <div id="theBody">
+      <div class="notifBar unread">
+        <img src="assets/images/avatar-mark-webber.webp" alt="">
+        <div class="description">
+          <span class="userActivity">
+            <b class="name">Mark webber </b> reacted to your recent post <b class="activity">My first tournament today!</b>
+          </span>
+          <span class="time">
+            1m ago
+          </span>
+        </div>
+      </div>
+      <div class="notifBar unread">
+        <img src="assets/images/avatar-angela-gray.webp" alt="">
+        <div class="description">
+          <span class="userActivity">
+            <b class="name">Angela Gray </b> followed you 
+          </span>
+          <span class="time">
+            5m ago
+          </span>
+        </div>
+      </div>
+      <div class="notifBar unread">
+        <img src="assets/images/avatar-jacob-thompson.webp" alt="">
+        <div class="description">
+          <span class="userActivity">
+            <b class="name">Jacob Thompson </b>has joined your group <b class="activity">Chess club</b>
+          </span>
+          <span class="time">
+            1 day ago
+          </span>
+        </div>
+      </div>
+      <div class="notifBar">
+        <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="">
+        <div class="description">
+          <span class="userActivity">
+            <b class="name">Rizky Hasanuddin </b>sent you a private message
+          </span>
+          <span class="time">
+            5 days ago
+          </span>
+          <span class="theMessage">
+            Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.
+          </span>
+        </div>
+      </div>
+      <div class="notifBar">
+        <img src="assets/images/avatar-kimberly-smith.webp" alt="">
+        <div class="description">
+          <span class="userActivity">
+            <b class="name">Kimberly Smith </b>commented on your picture
+          </span>
+          <span class="time">
+            1 week ago
+          </span>
+        </div>
+        <div class="notifPic">
+          <img src="assets/images/image-chess.webp" alt="">
+        </div>
+      </div>
+      <div class="notifBar">
+        <img src="assets/images/avatar-nathan-peterson.webp" alt="">
+        <div class="description">
+          <span class="userActivity">
+            <b class="name">Nathan Peterson </b>reacted to your recent post <b class="activity chess">Chess club</b>
+          </span>
+          <span class="time">
+            2 weeks ago
+          </span>
+        </div>
+      </div>
+      <div class="notifBar">
+        <img src="assets/images/avatar-anna-kim.webp" alt="">
+        <div class="description">
+          <span class="userActivity">
+            <b class="name">Anna Kim </b>left the group <b class="activity chess">Chess club</b>
+          </span>
+          <span class="time">
+            2 weeks ago
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
